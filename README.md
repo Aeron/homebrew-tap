@@ -1,18 +1,30 @@
-# Aeron Tap
+# Aeron’s Homebrew Tap
 
-## How do I install these formulae?
+A personal [Homebrew](https://brew.sh) tap for things I build or other folks have no
+formulae for.
 
-`brew install aeron/tap/<formula>`
+## Formulae
 
-Or `brew tap aeron/tap` and then `brew install <formula>`.
+- [`spwd`](https://github.com/Aeron/spwd) — a command-line utility to generate unique identifiers (UUID, ULID, ObjectId)
 
-Or, in a `brew bundle` `Brewfile`:
+## Usage
+
+Install a formula directly:
+
+```sh
+brew install aeron/tap/<formula>
+```
+
+Or tap first, then install by name:
+
+```sh
+brew tap aeron/tap
+brew install <formula>
+```
+
+Or via a `Brewfile`:
 
 ```ruby
 tap "aeron/tap"
 brew "<formula>"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
