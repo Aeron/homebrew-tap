@@ -1,7 +1,6 @@
 class Spwd < Formula
-  desc "A command-line utility to generate unique identifiers (UUID, ULID, ObjectId)"
+  desc "Command-line utility to generate unique identifiers (UUID, ULID, ObjectId)"
   homepage "https://github.com/Aeron/spwd"
-  version "1.0.0"
   license "ISC"
 
   on_macos do
