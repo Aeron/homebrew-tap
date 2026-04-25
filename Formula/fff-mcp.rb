@@ -1,5 +1,5 @@
 class FffMcp < Formula
-  desc "The fastest and the most accurate file search toolkit for AI agents"
+  desc "Fastest and most accurate file search toolkit for AI agents"
   homepage "https://github.com/dmtrKovalenko/fff.nvim"
   license "MIT"
 
@@ -30,19 +30,16 @@ class FffMcp < Formula
   end
 
   def install
-    on_macos do
-      on_arm do
+    if OS.mac?
+      if Hardware::CPU.arm?
         bin.install "fff-mcp-aarch64-apple-darwin" => "fff-mcp"
-      end
-      on_intel do
+      elsif Hardware::CPU.intel?
         bin.install "fff-mcp-x86_64-apple-darwin" => "fff-mcp"
       end
-    end
-    on_linux do
-      on_arm do
+    elsif OS.linux?
+      if Hardware::CPU.arm?
         bin.install "fff-mcp-aarch64-unknown-linux-gnu" => "fff-mcp"
-      end
-      on_intel do
+      elsif Hardware::CPU.intel?
         bin.install "fff-mcp-x86_64-unknown-linux-gnu" => "fff-mcp"
       end
     end
