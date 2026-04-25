@@ -5,6 +5,7 @@ formulae for.
 
 ## Formulae
 
+- [`fff-mcp`](https://github.com/dmtrKovalenko/fff.nvim) — the fastest and the most accurate file search toolkit for AI agents
 - [`spwd`](https://github.com/Aeron/spwd) — a command-line utility to generate unique identifiers (UUID, ULID, ObjectId)
 
 ## Usage
