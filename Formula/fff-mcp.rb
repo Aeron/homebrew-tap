@@ -3,29 +3,29 @@ class FffMcp < Formula
   homepage "https://github.com/dmtrKovalenko/fff.nvim"
   license "MIT"
 
-  v = "0.6.4"
+  v = "0.7.1"
 
   on_macos do
     on_arm do
       url "https://github.com/dmtrKovalenko/fff.nvim/releases/download/v#{v}/fff-mcp-aarch64-apple-darwin"
-      sha256 "e9eb0cec5856d78b30382c93e54bfbfe68547bba7a5af874e975aa59c4901252"
+      sha256 "b01a1174c31286c354a9e291760d1fe832c970069fd4403a183845a2b1ab8f85"
     end
 
     on_intel do
       url "https://github.com/dmtrKovalenko/fff.nvim/releases/download/v#{v}/fff-mcp-x86_64-apple-darwin"
-      sha256 "616699f3b131cb27cc71164813a972e568c3ae4d9df6646339cc8f449011dde9"
+      sha256 "5765ae9c96add1d4a6c4b51b43a8acc896d8af42e9b7dd966d8814053d53df82"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dmtrKovalenko/fff.nvim/releases/download/v#{v}/fff-mcp-aarch64-unknown-linux-gnu"
-      sha256 "5be882c099b9b28baf3b31bbb2c0bbd722b604a34640d683f3aaf1c890e33313"
+      sha256 "3d105f3b4be81e6a2964bb34c091873a40cfe7686fffd216cf9ee4d547e18ff1"
     end
 
     on_intel do
       url "https://github.com/dmtrKovalenko/fff.nvim/releases/download/v#{v}/fff-mcp-x86_64-unknown-linux-gnu"
-      sha256 "eee3c355643a97ad77e0e9548101afb96cd69b4c751979933961eb2e05fdcede"
+      sha256 "668867c61b421d4a59a04bc64e7c99ab9b3834a5126696832da79cee24a3d9ac"
     end
   end
 
