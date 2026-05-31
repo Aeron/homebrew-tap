@@ -1,6 +1,6 @@
 class FffMcp < Formula
   desc "Fastest and most accurate file search toolkit for AI agents"
-  homepage "https://github.com/dmtrKovalenko/fff.nvim"
+  homepage "https://github.com/dmtrKovalenko/fff"
   license "MIT"
 
   # NOTE: the version is a dedicated keyword; Homebrew linter will not be happy
