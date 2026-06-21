@@ -5,29 +5,29 @@ class Spwd < Formula
 
   # NOTE: the version is a dedicated keyword; Homebrew linter will not be happy
   # if we use it, so we use a different class variable instead
-  v = "1.0.0"
+  v = "1.0.1"
 
   on_macos do
     on_arm do
       url "https://github.com/Aeron/spwd/releases/download/#{v}/spwd-aarch64-apple-darwin.tar.gz"
-      sha256 "84ff5172af48adfe4f7729b34d01389e63c95081ff6ee3b3d2111109804ae0e6"
+      sha256 "7c3a4c6da8ef1fa7dfdbc9585b39b7095ae7ddd25fff2a7eff789e26481108d4"
     end
 
     on_intel do
       url "https://github.com/Aeron/spwd/releases/download/#{v}/spwd-x86_64-apple-darwin.tar.gz"
-      sha256 "6952bfdb4bc23f98bf598f63402e05de24d2137f3c12fc3aa62df7d6eb6501cd"
+      sha256 "a6f85657f3772fe00a9d43df595d5dd64d030ea28713c3b5970c8cf1de6d7a24"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Aeron/spwd/releases/download/#{v}/spwd-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e1b1b23c9fa1fa3127f5ad3a338f513c7eceb56a437211988a0971a17e1b88bc"
+      sha256 "e0e712fe8f1190ad4e5203815b31947ac465e3f68c7662bddfff768e53a5ac0a"
     end
 
     on_intel do
       url "https://github.com/Aeron/spwd/releases/download/#{v}/spwd-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fc21784e682fbb6cbc193a020472105393096bfc194d77701bc2093793ecfb6a"
+      sha256 "fd48cd9c11f7d69389cc1ee039087fdf674625ac7020d70dec13bddf89caff33"
     end
   end
 
