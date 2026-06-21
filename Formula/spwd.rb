@@ -3,6 +3,8 @@ class Spwd < Formula
   homepage "https://github.com/Aeron/spwd"
   license "ISC"
 
+  # NOTE: the version is a dedicated keyword; Homebrew linter will not be happy
+  # if we use it, so we use a different class variable instead
   v = "1.0.0"
 
   on_macos do
