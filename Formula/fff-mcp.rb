@@ -3,7 +3,7 @@ class FffMcp < Formula
   homepage "https://github.com/dmtrKovalenko/fff"
   license "MIT"
 
-  deprecate! date: "2026-06-21", because: "it has been superseded by dmtrKovalenko/fff/fff-mcp"
+  deprecate! date: "2026-06-21", because: "superseded by dmtrKovalenko/fff/fff-mcp"
 
   # NOTE: the version is a dedicated keyword; Homebrew linter will not be happy
   # if we use it, so we use a different class variable instead
